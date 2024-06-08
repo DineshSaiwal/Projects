@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Delete_Request.Delete_a_department"/>
+      <class name="Delete_Request.Delete_a_designation"/>
+      <class name="Delete_Request.Delete_a_Company_Domains"/>
+      <class name="Delete_Request.Delete_a_SalaryRange"/>
+      <class name="Delete_Request.Delete_a_Appraisal_type"/>
+      <class name="Delete_Request.Delete_a_Admin_fields"/>
+      <class name="Delete_Request.Delete_a_employee_personal_fields"/>
+      <class name="Delete_Request.Delete_a_Employement_type"/>
+      <class name="Delete_Request.Delete_a_Grade"/>
+      <class name="Delete_Request.Delete_a_holiday_type"/>
+      <class name="Delete_Request.Delete_a_Review_type"/>
+      <class name="Delete_Request.Delete_a_Skill_type"/>
+      
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

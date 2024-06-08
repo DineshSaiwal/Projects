@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 17 10:11:49 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>23 seconds (23532 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='POST_Request.Create_a_new_Skill_type.create_a_new_Skill_type()'><b>create_a_new_Skill_type</b><br>Test class: POST_Request.Create_a_new_Skill_type</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_Skill_type@6e171cd7</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_holiday_type.update_an_existing_holiday_type()'><b>update_an_existing_holiday_type</b><br>Test class: PUT_Request.Update_an_existing_holiday_type</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_an_existing_holiday_type@479d31f3</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_Grade.create_a_new_Grade()'><b>create_a_new_Grade</b><br>Test class: POST_Request.Create_a_new_Grade</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_Grade@1ab3a8c8</td></tr>
+<tr>
+<td title='POST_Request.Login_to_generate_JWT.login_to_generate_JWT()'><b>login_to_generate_JWT</b><br>Test class: POST_Request.Login_to_generate_JWT</td>
+<td></td>
+<td>2</td>
+<td>POST_Request.Login_to_generate_JWT@708f5957</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_Appraisal_type.create_a_new_Appraisal_type()'><b>create_a_new_Appraisal_type</b><br>Test class: POST_Request.Create_a_new_Appraisal_type</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_Appraisal_type@5119fb47</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_Company_Domains.create_a_new_Company_Domains()'><b>create_a_new_Company_Domains</b><br>Test class: POST_Request.Create_a_new_Company_Domains</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_Company_Domains@1dde4cb2</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_employee_Admin_field.create_a_new_employee_Admin_field()'><b>create_a_new_employee_Admin_field</b><br>Test class: POST_Request.Create_a_new_employee_Admin_field</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_employee_Admin_field@55b7a4e0</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_Review_type.update_an_existing_Review_type()'><b>update_an_existing_Review_type</b><br>Test class: PUT_Request.Update_an_existing_Review_type</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_an_existing_Review_type@498d318c</td></tr>
+<tr>
+<td title='POST_Request.Resend_the_otp.resend_the_otp()'><b>resend_the_otp</b><br>Test class: POST_Request.Resend_the_otp</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Resend_the_otp@2f7298b</td></tr>
+<tr>
+<td title='PUT_Request.Update_admin_user_specific_information.update_admin_user_specific_information()'><b>update_admin_user_specific_information</b><br>Test class: PUT_Request.Update_admin_user_specific_information</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_admin_user_specific_information@795cd85e</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_employee_personal_fields.update_an_existing_employee_personal_fields()'><b>update_an_existing_employee_personal_fields</b><br>Test class: PUT_Request.Update_an_existing_employee_personal_fields</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_an_existing_employee_personal_fields@72057ecf</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_Skill_type.update_an_existing_Skill_type()'><b>update_an_existing_Skill_type</b><br>Test class: PUT_Request.Update_an_existing_Skill_type</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_an_existing_Skill_type@402bba4f</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_Appraisal_type.update_an_existing_Appraisal_type()'><b>update_an_existing_Appraisal_type</b><br>Test class: PUT_Request.Update_an_existing_Appraisal_type</td>
+<td></td>
+<td>1</td>
+<td>PUT_Request.Update_an_existing_Appraisal_type@7193666c</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_designation.update_an_existing_designation()'><b>update_an_existing_designation</b><br>Test class: PUT_Request.Update_an_existing_designation</td>
+<td></td>
+<td>1</td>
+<td>PUT_Request.Update_an_existing_designation@6eda5c9</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_holiday_type.create_a_new_holiday_type()'><b>create_a_new_holiday_type</b><br>Test class: POST_Request.Create_a_new_holiday_type</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_holiday_type@333291e3</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_Company_Domains.update_an_existing_Company_Domains()'><b>update_an_existing_Company_Domains</b><br>Test class: PUT_Request.Update_an_existing_Company_Domains</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_an_existing_Company_Domains@7714e963</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_SalaryRange.update_an_existing_SalaryRange()'><b>update_an_existing_SalaryRange</b><br>Test class: PUT_Request.Update_an_existing_SalaryRange</td>
+<td></td>
+<td>1</td>
+<td>PUT_Request.Update_an_existing_SalaryRange@6a192cfe</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_department.update_an_existing_department()'><b>update_an_existing_department</b><br>Test class: PUT_Request.Update_an_existing_department</td>
+<td></td>
+<td>1</td>
+<td>PUT_Request.Update_an_existing_department@393671df</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_Grade.update_an_existing_Grade()'><b>update_an_existing_Grade</b><br>Test class: PUT_Request.Update_an_existing_Grade</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_an_existing_Grade@43195e57</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_Employemente_type.create_a_new_Employemente_type()'><b>create_a_new_Employemente_type</b><br>Test class: POST_Request.Create_a_new_Employemente_type</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_Employemente_type@1afd44cb</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_Admin_fields.update_an_existing_Admin_fields()'><b>update_an_existing_Admin_fields</b><br>Test class: PUT_Request.Update_an_existing_Admin_fields</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_an_existing_Admin_fields@5f058f00</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_department.create_a_new_department()'><b>create_a_new_department</b><br>Test class: POST_Request.Create_a_new_department</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_department@20ce78ec</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_employee_personal_field.create_a_new_employee_personal_field()'><b>create_a_new_employee_personal_field</b><br>Test class: POST_Request.Create_a_new_employee_personal_field</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_employee_personal_field@192d43ce</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_designation.create_a_new_designation()'><b>create_a_new_designation</b><br>Test class: POST_Request.Create_a_new_designation</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_designation@56620197</td></tr>
+<tr>
+<td title='POST_Request.Forgot_Password.forgot_Password()'><b>forgot_Password</b><br>Test class: POST_Request.Forgot_Password</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Forgot_Password@188715b5</td></tr>
+<tr>
+<td title='PUT_Request.Update_an_existing_Employement_type.update_an_existing_Employement_type()'><b>update_an_existing_Employement_type</b><br>Test class: PUT_Request.Update_an_existing_Employement_type</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_an_existing_Employement_type@6973b51b</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_SalaryRange.create_a_new_SalaryRange()'><b>create_a_new_SalaryRange</b><br>Test class: POST_Request.Create_a_new_SalaryRange</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_SalaryRange@1ea9f6af</td></tr>
+<tr>
+<td title='POST_Request.Create_a_new_Review_type.create_a_new_Review_type()'><b>create_a_new_Review_type</b><br>Test class: POST_Request.Create_a_new_Review_type</td>
+<td></td>
+<td>0</td>
+<td>POST_Request.Create_a_new_Review_type@40ef3420</td></tr>
+<tr>
+<td title='PUT_Request.Update_the_details_of_the_logged_in_users_company.update_the_details_of_the_logged_in_users_company()'><b>update_the_details_of_the_logged_in_users_company</b><br>Test class: PUT_Request.Update_the_details_of_the_logged_in_users_company</td>
+<td></td>
+<td>0</td>
+<td>PUT_Request.Update_the_details_of_the_logged_in_users_company@59fd97a8</td></tr>
+</table><p>
+</body>
+</html>

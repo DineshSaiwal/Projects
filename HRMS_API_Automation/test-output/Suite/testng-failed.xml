@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="PUT_Request.Update_an_existing_designation">
+        <methods>
+          <include name="update_an_existing_designation"/>
+          <include name="Flush"/>
+          <include name="Extent_R"/>
+        </methods>
+      </class> <!-- PUT_Request.Update_an_existing_designation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

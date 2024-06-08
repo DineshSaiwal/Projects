@@ -1,0 +1,583 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 2, 2023 05:36:30 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">QA_Team</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">GET_Request</a><a class="dropdown-item" href="#">POST_Request</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author="QA_Team"
+          tag="POST_Request"
+          device="">
+          <div class="test-detail">
+            <p class="name">Apply_a_leave</p>
+            <p class="text-sm">
+              <span>5:36:30 pm</span> / <span>00:00:05:286</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Apply_a_leave</h5>
+<span class='badge badge-success'>05.02.2023 5:36:30 pm</span>
+<span class='badge badge-danger'>05.02.2023 5:36:35 pm</span>
+<span class='badge badge-default'>00:00:05:286</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QA_Team</span>
+<span class="badge badge-pill badge-default">POST_Request</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:36:35 pm</td>
+        <td>
+          <span class='badge white-text red'>Apply_a_leave</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>5:36:35 pm</td>
+        <td>
+          <span class='badge white-text orange'>HTTP/1.1 400 Bad Request</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>5:36:35 pm</td>
+        <td>
+          <span class='badge white-text orange'>Something Went Wrong</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:36:35 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({"data":"User has no user_employee.","message":"Something Went Wrong","requeststatus":0}); 
+  }
+  jsonTreeCreate2();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="QA_Team"
+          tag="GET_Request"
+          device="">
+          <div class="test-detail">
+            <p class="name">Get_all_the_employees</p>
+            <p class="text-sm">
+              <span>5:36:33 pm</span> / <span>00:00:00:717</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Get_all_the_employees</h5>
+<span class='badge badge-success'>05.02.2023 5:36:33 pm</span>
+<span class='badge badge-danger'>05.02.2023 5:36:34 pm</span>
+<span class='badge badge-default'>00:00:00:717</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QA_Team</span>
+<span class="badge badge-pill badge-default">GET_Request</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:36:34 pm</td>
+        <td>
+          <span class='badge white-text green'>Get_all_the_employees</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:36:34 pm</td>
+        <td>
+          <span class='badge white-text blue'>Success</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:36:34 pm</td>
+        <td>
+          <span class='badge white-text blue'>HTTP/1.1 200 OK</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:36:34 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({"data":[{"user__email":"dhoni07@bugfoo.com","user__first_name":"MS Dhoni","user__is_active":true,"user__is_subadmin":true,"id":390,"employee_id":"DS0007","employment_type_id":43,"department_id":66,"department__name":"Engineering","designation":103,"designation__name":"Engineering","country":"India","gross_salary":0.0,"date_of_joining":"2022-11-11","resume":null,"grade_id":44,"gender":"M","user__mobile_number":"7896589956","profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","reports_to_id":null,"reports_to__user_employee__profile_picture":null,"reports_to__first_name":null,"reports_to__user_employee__id":null,"reports_to__user_employee__designation":null,"reports_to__user_employee__designation__name":null,"is_under_probation":false,"probation_days":null,"is_under_notice_period":false,"notice_period_days":null,"preferred_pronoun":null},{"user__email":"moinali@bugfoo.com","user__first_name":"MoinAli","user__is_active":true,"user__is_subadmin":false,"id":383,"employee_id":"DS845","employment_type_id":41,"department_id":66,"department__name":"Engineering","designation":103,"designation__name":"Engineering","country":"India","gross_salary":0.0,"date_of_joining":"2022-09-08","resume":null,"grade_id":44,"gender":"M","user__mobile_number":"7755884422","profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985286.33141.png","reports_to_id":448,"reports_to__user_employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","reports_to__first_name":"MS Dhoni","reports_to__user_employee__id":390,"reports_to__user_employee__designation":103,"reports_to__user_employee__designation__name":"Engineering","is_under_probation":false,"probation_days":null,"is_under_notice_period":false,"notice_period_days":null,"preferred_pronoun":"He"},{"user__email":"sachin@bugfoo.com","user__first_name":"Sachin T.","user__is_active":true,"user__is_subadmin":false,"id":138,"employee_id":"DS705","employment_type_id":43,"department_id":66,"department__name":"Engineering","designation":103,"designation__name":"Engineering","country":"India","gross_salary":0.0,"date_of_joining":"2023-01-19","resume":null,"grade_id":44,"gender":"F","user__mobile_number":"9876852211","profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681987940.377755.jpg","reports_to_id":null,"reports_to__user_employee__profile_picture":null,"reports_to__first_name":null,"reports_to__user_employee__id":null,"reports_to__user_employee__designation":null,"reports_to__user_employee__designation__name":null,"is_under_probation":false,"probation_days":null,"is_under_notice_period":false,"notice_period_days":null,"preferred_pronoun":"She"},{"user__email":"rayudu@bugfoo.com","user__first_name":"A. Rayudu","user__is_active":true,"user__is_subadmin":false,"id":137,"employee_id":"DS204","employment_type_id":41,"department_id":66,"department__name":"Engineering","designation":103,"designation__name":"Engineering","country":"India","gross_salary":0.0,"date_of_joining":"2022-06-25","resume":null,"grade_id":44,"gender":"M","user__mobile_number":"7755331155","profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985216.999749.png","reports_to_id":448,"reports_to__user_employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","reports_to__first_name":"MS Dhoni","reports_to__user_employee__id":390,"reports_to__user_employee__designation":103,"reports_to__user_employee__designation__name":"Engineering","is_under_probation":false,"probation_days":null,"is_under_notice_period":false,"notice_period_days":null,"preferred_pronoun":null},{"user__email":"deepak@bugfoo.com","user__first_name":"Deepak C.","user__is_active":true,"user__is_subadmin":false,"id":135,"employee_id":"DS014","employment_type_id":43,"department_id":66,"department__name":"Engineering","designation":103,"designation__name":"Engineering","country":"India","gross_salary":0.0,"date_of_joining":"2022-12-06","resume":null,"grade_id":44,"gender":"M","user__mobile_number":"9878543211","profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985404.172476.png","reports_to_id":448,"reports_to__user_employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","reports_to__first_name":"MS Dhoni","reports_to__user_employee__id":390,"reports_to__user_employee__designation":103,"reports_to__user_employee__designation__name":"Engineering","is_under_probation":false,"probation_days":null,"is_under_notice_period":false,"notice_period_days":null,"preferred_pronoun":null},{"user__email":"ajinkya@bugfoo.com","user__first_name":"Ajinkya R.","user__is_active":true,"user__is_subadmin":false,"id":134,"employee_id":"DS044","employment_type_id":null,"department_id":null,"department__name":null,"designation":null,"designation__name":null,"country":"India","gross_salary":0.0,"date_of_joining":"2023-01-04","resume":null,"grade_id":null,"gender":"M","user__mobile_number":"9966332255","profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985758.042122.jpg","reports_to_id":null,"reports_to__user_employee__profile_picture":null,"reports_to__first_name":null,"reports_to__user_employee__id":null,"reports_to__user_employee__designation":null,"reports_to__user_employee__designation__name":null,"is_under_probation":false,"probation_days":null,"is_under_notice_period":false,"notice_period_days":null,"preferred_pronoun":null},{"user__email":"jadeja@bugfoo.com","user__first_name":"R. Jadeja","user__is_active":true,"user__is_subadmin":false,"id":133,"employee_id":"DS012","employment_type_id":43,"department_id":66,"department__name":"Engineering","designation":103,"designation__name":"Engineering","country":"Afghanistan","gross_salary":0.0,"date_of_joining":"2023-01-12","resume":null,"grade_id":46,"gender":"M","user__mobile_number":"9876543222","profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985939.574473.png","reports_to_id":448,"reports_to__user_employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","reports_to__first_name":"MS Dhoni","reports_to__user_employee__id":390,"reports_to__user_employee__designation":103,"reports_to__user_employee__designation__name":"Engineering","is_under_probation":false,"probation_days":null,"is_under_notice_period":false,"notice_period_days":null,"preferred_pronoun":null},{"user__email":"faf@bugfoo.com","user__first_name":"Faf du Plessis","user__is_active":true,"user__is_subadmin":false,"id":132,"employee_id":"DS072","employment_type_id":23,"department_id":66,"department__name":"Engineering","designation":103,"designation__name":"Engineering","country":"Pakistan","gross_salary":0.0,"date_of_joining":"2023-02-09","resume":null,"grade_id":44,"gender":"F","user__mobile_number":"9876543219","profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681986103.291393.jpg","reports_to_id":null,"reports_to__user_employee__profile_picture":null,"reports_to__first_name":null,"reports_to__user_employee__id":null,"reports_to__user_employee__designation":null,"reports_to__user_employee__designation__name":null,"is_under_probation":false,"probation_days":null,"is_under_notice_period":false,"notice_period_days":null,"preferred_pronoun":null}],"message":"Success","last_page":false,"last_id":132,"requeststatus":1}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="QA_Team"
+          tag="GET_Request"
+          device="">
+          <div class="test-detail">
+            <p class="name">Get_all_the_available_leave_types</p>
+            <p class="text-sm">
+              <span>5:36:34 pm</span> / <span>00:00:00:533</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Get_all_the_available_leave_types</h5>
+<span class='badge badge-success'>05.02.2023 5:36:34 pm</span>
+<span class='badge badge-danger'>05.02.2023 5:36:35 pm</span>
+<span class='badge badge-default'>00:00:00:533</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QA_Team</span>
+<span class="badge badge-pill badge-default">GET_Request</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:36:35 pm</td>
+        <td>
+          <span class='badge white-text green'>Get_all_the_available_leave_types</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:36:35 pm</td>
+        <td>
+          <span class='badge white-text blue'>Success</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:36:35 pm</td>
+        <td>
+          <span class='badge white-text blue'>HTTP/1.1 200 OK</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:36:35 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({"data":[{"id":41,"created_date":"2023-04-28T10:06:43.318545Z","updated_date":"2023-04-28T10:06:43.318578Z","name":"XYZ Leave","leave_module_id":19,"is_carry_forward":false,"carry_forward_days":0,"total_days":50,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":10,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":7},{"id":40,"created_date":"2023-04-28T10:06:03.307058Z","updated_date":"2023-04-28T10:06:03.307093Z","name":"ABC Leave","leave_module_id":19,"is_carry_forward":false,"carry_forward_days":0,"total_days":50,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":5,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":5},{"id":38,"created_date":"2023-04-25T09:42:16.170729Z","updated_date":"2023-04-25T09:42:16.170751Z","name":"D","leave_module_id":19,"is_carry_forward":true,"carry_forward_days":10,"total_days":20,"should_be_applied_before_days":7,"is_monthly_limit":true,"monthly_days":7,"is_active":false,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":true,"is_active_after_days":true,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[1,2],"at_a_time_min_limit":3,"at_a_time_max_limit":5},{"id":36,"created_date":"2023-04-20T05:21:34.660681Z","updated_date":"2023-04-20T05:21:34.660722Z","name":"Earned Leave","leave_module_id":12,"is_carry_forward":true,"carry_forward_days":10,"total_days":20,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":7,"is_active":true,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":true,"is_active_after_days":true,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[],"at_a_time_min_limit":3,"at_a_time_max_limit":5},{"id":35,"created_date":"2023-04-20T05:14:35.072070Z","updated_date":"2023-04-20T05:14:35.072110Z","name":"Casual Leave","leave_module_id":12,"is_carry_forward":false,"carry_forward_days":0,"total_days":36,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":3,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":true,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":true,"is_work_from_home":false,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":3},{"id":34,"created_date":"2023-04-19T09:35:51.470354Z","updated_date":"2023-04-19T09:35:51.470380Z","name":"Earn Leave","leave_module_id":15,"is_carry_forward":false,"carry_forward_days":0,"total_days":48,"should_be_applied_before_days":1,"is_monthly_limit":true,"monthly_days":4,"is_active":true,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":2},{"id":33,"created_date":"2023-04-19T09:34:36.465993Z","updated_date":"2023-04-19T09:34:36.466013Z","name":"Sick Leave","leave_module_id":15,"is_carry_forward":false,"carry_forward_days":0,"total_days":60,"should_be_applied_before_days":2,"is_monthly_limit":true,"monthly_days":5,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":true,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":true,"is_work_from_home":true,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":4},{"id":32,"created_date":"2023-04-19T09:32:38.174447Z","updated_date":"2023-04-19T09:32:38.174479Z","name":"Casual Leave ","leave_module_id":15,"is_carry_forward":false,"carry_forward_days":0,"total_days":60,"should_be_applied_before_days":2,"is_monthly_limit":true,"monthly_days":5,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":true,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":true,"is_work_from_home":true,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":3},{"id":31,"created_date":"2023-04-18T12:03:51.234155Z","updated_date":"2023-04-18T12:03:51.234177Z","name":"Sick leave","leave_module_id":13,"is_carry_forward":false,"carry_forward_days":0,"total_days":24,"should_be_applied_before_days":1,"is_monthly_limit":true,"monthly_days":4,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":true,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":true,"is_work_from_home":false,"restricted_employment":[45],"at_a_time_min_limit":1,"at_a_time_max_limit":3},{"id":30,"created_date":"2023-04-18T11:20:40.915003Z","updated_date":"2023-04-18T11:20:40.915064Z","name":"loss of pay","leave_module_id":10,"is_carry_forward":false,"carry_forward_days":0,"total_days":10,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":10,"is_active":true,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":true,"is_notice_period":true,"is_work_from_home":false,"restricted_employment":[25,26],"at_a_time_min_limit":1,"at_a_time_max_limit":10},{"id":29,"created_date":"2023-04-18T10:53:35.366315Z","updated_date":"2023-04-18T10:53:35.366410Z","name":"Sick Leave","leave_module_id":12,"is_carry_forward":false,"carry_forward_days":0,"total_days":36,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":3,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":true,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":true,"is_work_from_home":false,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":2},{"id":28,"created_date":"2023-04-18T10:05:33.097291Z","updated_date":"2023-04-18T10:05:33.097345Z","name":"earned leaves","leave_module_id":10,"is_carry_forward":false,"carry_forward_days":0,"total_days":24,"should_be_applied_before_days":1,"is_monthly_limit":true,"monthly_days":4,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[26,25],"at_a_time_min_limit":1,"at_a_time_max_limit":3},{"id":27,"created_date":"2023-04-10T09:57:20.565359Z","updated_date":"2023-04-10T09:57:20.565386Z","name":"casual","leave_module_id":10,"is_carry_forward":false,"carry_forward_days":0,"total_days":12,"should_be_applied_before_days":2,"is_monthly_limit":true,"monthly_days":1,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":true,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[25,26],"at_a_time_min_limit":1,"at_a_time_max_limit":1},{"id":26,"created_date":"2023-04-10T09:56:38.283158Z","updated_date":"2023-04-10T09:56:38.283184Z","name":"sick leave","leave_module_id":10,"is_carry_forward":true,"carry_forward_days":50,"total_days":12,"should_be_applied_before_days":1,"is_monthly_limit":true,"monthly_days":2,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":true,"is_active_after_days":true,"activate_after_days":2,"increment_monthly":true,"increment_alternate":false,"is_notice_period":true,"is_work_from_home":false,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":2},{"id":25,"created_date":"2023-04-02T01:02:03.451829Z","updated_date":"2023-04-02T01:02:03.451855Z","name":"Earned Leave","leave_module_id":9,"is_carry_forward":true,"carry_forward_days":50,"total_days":12,"should_be_applied_before_days":7,"is_monthly_limit":true,"monthly_days":5,"is_active":true,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":false,"is_active_after_days":true,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[16,14],"at_a_time_min_limit":3,"at_a_time_max_limit":5},{"id":24,"created_date":"2023-04-02T01:00:50.634337Z","updated_date":"2023-04-02T01:00:50.634371Z","name":"Casual Leave","leave_module_id":9,"is_carry_forward":false,"carry_forward_days":0,"total_days":6,"should_be_applied_before_days":1,"is_monthly_limit":true,"monthly_days":2,"is_active":true,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":true,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[16,14],"at_a_time_min_limit":1,"at_a_time_max_limit":2},{"id":23,"created_date":"2023-04-02T00:59:40.655635Z","updated_date":"2023-04-02T00:59:40.655676Z","name":"Sick Leave","leave_module_id":9,"is_carry_forward":false,"carry_forward_days":0,"total_days":12,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":2,"is_active":true,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":true,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[16,14],"at_a_time_min_limit":1,"at_a_time_max_limit":2},{"id":22,"created_date":"2023-04-02T00:57:44.165871Z","updated_date":"2023-04-02T00:57:44.165951Z","name":"Loss of Pay","leave_module_id":9,"is_carry_forward":false,"carry_forward_days":0,"total_days":20,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":5,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":true,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":true,"is_work_from_home":false,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":5},{"id":21,"created_date":"2023-01-17T13:44:33.480073Z","updated_date":"2023-01-17T13:44:33.480110Z","name":"Loss of Pay","leave_module_id":8,"is_carry_forward":false,"carry_forward_days":0,"total_days":20,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":5,"is_active":true,"display_to_emp":true,"is_paid":false,"is_avail_in_probation":true,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":true,"is_work_from_home":false,"restricted_employment":[],"at_a_time_min_limit":1,"at_a_time_max_limit":5},{"id":20,"created_date":"2023-01-17T13:41:00.621735Z","updated_date":"2023-01-17T13:41:00.621760Z","name":"Sick Leave","leave_module_id":8,"is_carry_forward":false,"carry_forward_days":0,"total_days":12,"should_be_applied_before_days":0,"is_monthly_limit":true,"monthly_days":2,"is_active":true,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":true,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[16,14],"at_a_time_min_limit":1,"at_a_time_max_limit":2},{"id":19,"created_date":"2023-01-17T13:40:12.383443Z","updated_date":"2023-01-17T13:40:12.383474Z","name":"Casual Leave","leave_module_id":8,"is_carry_forward":false,"carry_forward_days":0,"total_days":6,"should_be_applied_before_days":1,"is_monthly_limit":true,"monthly_days":2,"is_active":true,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":false,"is_active_after_days":false,"activate_after_days":240,"increment_monthly":false,"increment_alternate":true,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[16,14],"at_a_time_min_limit":1,"at_a_time_max_limit":2},{"id":18,"created_date":"2023-01-17T13:38:21.815208Z","updated_date":"2023-01-17T13:38:21.815276Z","name":"Earned Leave","leave_module_id":8,"is_carry_forward":true,"carry_forward_days":50,"total_days":12,"should_be_applied_before_days":7,"is_monthly_limit":true,"monthly_days":5,"is_active":true,"display_to_emp":true,"is_paid":true,"is_avail_in_probation":false,"is_active_after_days":true,"activate_after_days":240,"increment_monthly":false,"increment_alternate":false,"is_notice_period":false,"is_work_from_home":false,"restricted_employment":[16,14],"at_a_time_min_limit":3,"at_a_time_max_limit":5}],"message":"Success","requeststatus":1}); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 2, 2023 05:36:30 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 2, 2023 05:36:35 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='66%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='33%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='16%'><b>2</b> events passed</small></div>
+<div>
+<small data-tooltip='8%'><b>1</b> events failed,
+<b data-tooltip='%'>9</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Apply_a_leave":5.286,"Get_all_the_employees":0.717,"Get_all_the_available_leave_types":0.533
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>QA_Team</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>GET_Request</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>POST_Request</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Project Name</td>
+<td>HRMS_2.0</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Production</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 2,
+failEvents: 1,
+warningEvents: 2,
+skipEvents: 0,
+infoEvents: 7
+};
+</script><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">GET_Request</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>GET_Request</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:36:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Get_all_the_employees</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:36:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Get_all_the_available_leave_types</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">POST_Request</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>POST_Request</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:36:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Apply_a_leave</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

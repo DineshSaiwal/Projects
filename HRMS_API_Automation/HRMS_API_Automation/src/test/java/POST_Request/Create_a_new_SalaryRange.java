@@ -1,0 +1,43 @@
+package POST_Request;
+
+import java.io.IOException;
+import org.testng.annotations.Test;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.markuputils.CodeLanguage;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import Base_Package.Login;
+import Base_Package.Path;
+import Base_Package.Utility_Class;
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+public class Create_a_new_SalaryRange extends Login{
+	static ExtentTest Message;
+	@Test
+	public static void create_a_new_SalaryRange() throws IOException {
+		Message=extent.createTest("Create_a_new_SalaryRange").assignAuthor("QA_Team").assignCategory("POST_Request");
+		Utility_Class.Sheet_Name("POST");
+		login();
+		Response response = RestAssured.given()
+				.header("Authorization","jwt "+Token) 
+				.contentType(ContentType.JSON)
+				.body(Utility_Class.getCellData(2,15))
+				.post(base_url+Path.Create_a_new_SalaryRange);
+		
+		JsonPath JP = response.jsonPath(); 
+//Validation 
+		if(response.getStatusCode()==200) {
+			Message.pass(MarkupHelper.createLabel("Create_a_new_SalaryRange", ExtentColor.GREEN));			
+			Message.info(MarkupHelper.createLabel((String) JP.get("message"), ExtentColor.BLUE));
+			Message.info(MarkupHelper.createLabel(response.getStatusLine(), ExtentColor.BLUE));
+			Message.info(MarkupHelper.createCodeBlock(response.getBody().asString(), CodeLanguage.JSON));}
+		else{
+			Message.fail(MarkupHelper.createLabel("Create_a_new_SalaryRange", ExtentColor.RED));
+			Message.warning(MarkupHelper.createLabel(response.getStatusLine(), ExtentColor.ORANGE));
+			Message.warning(MarkupHelper.createLabel((String) JP.get("message"), ExtentColor.ORANGE));
+			Message.info(MarkupHelper.createCodeBlock(response.getBody().asString(), CodeLanguage.JSON));}	
+	}
+}

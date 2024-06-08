@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="GET_Request.Get_all_the_tasks_sorted_for_a_specific_section">
+        <methods>
+          <include name="Flush"/>
+          <include name="get_all_the_tasks_sorted_for_a_specific_section"/>
+          <include name="Extent_R"/>
+        </methods>
+      </class> <!-- GET_Request.Get_all_the_tasks_sorted_for_a_specific_section -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

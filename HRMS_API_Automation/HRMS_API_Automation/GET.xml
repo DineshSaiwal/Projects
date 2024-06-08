@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="GET_Request.Get_all_the_available_Skill_types"/>
+      <class name="GET_Request.Get_all_the_available_Grades"/>
+      <class name="GET_Request.Get_a_list_of_departments_with_assigned_employees_and_team_leads"/>
+      <class name="GET_Request.Get_all_the_available_departments"/>
+      <class name="GET_Request.Get_all_the_available_holiday_types"/>
+      <class name="GET_Request.Get_all_the_available_Appraisal_types"/>
+      <class name="GET_Request.Get_all_the_available_kras_Goals"/>
+      <class name="GET_Request.Get_an_employees_wdt_info"/>
+      <class name="GET_Request.Get_the_salary_breakup_for_the_employee"/>
+      <class name="GET_Request.Get_all_the_available_SalaryRange"/>
+      <class name="GET_Request.Get_all_the_available_Review_types"/>
+      <class name="GET_Request.Get_the_details_of_the_logged_in_users_company"/>
+      <class name="GET_Request.Get_an_employees_salary_info"/>
+      <class name="GET_Request.Get_list_of_cities_for_a_corresponding_country"/>
+      <class name="GET_Request.Get_admin_user_specific_information"/>
+      <class name="GET_Request.Get_all_the_available_BehaviouralRating"/>
+      <class name="GET_Request.Get_all_the_available_kras"/>
+      <class name="GET_Request.Get_all_the_performance_reports"/>
+      <class name="GET_Request.Get_list_of_states_for_a_corresponding_country"/>
+      <class name="GET_Request.Get_all_the_employees"/>
+      <class name="GET_Request.Get_list_of_all_the_countries"/>
+      <class name="GET_Request.Get_all_the_employee_personal_fields"/>
+      <class name="GET_Request.Get_all_the_employee_Admin_fields"/>
+      <class name="GET_Request.Get_all_the_available_Employement_types"/>
+      <class name="GET_Request.Get_all_the_available_Company_domains"/>
+      <class name="GET_Request.Get_a_list_of_all_the_currency_codes"/>
+      <class name="GET_Request.Get_all_the_available_designations"/>
+      <class name="GET_Request.Get_an_employees_permissions_info"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

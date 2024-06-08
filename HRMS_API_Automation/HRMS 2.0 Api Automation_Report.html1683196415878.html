@@ -1,0 +1,471 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 4, 2023 04:03:35 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">QA_Team</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">GET_Request</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="QA_Team"
+          tag="GET_Request"
+          device="">
+          <div class="test-detail">
+            <p class="name">Get_the_chart_data_for_a_specific_taskboard</p>
+            <p class="text-sm">
+              <span>4:03:36 pm</span> / <span>00:00:04:232</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Get_the_chart_data_for_a_specific_taskboard</h5>
+<span class='badge badge-success'>05.04.2023 4:03:36 pm</span>
+<span class='badge badge-danger'>05.04.2023 4:03:40 pm</span>
+<span class='badge badge-default'>00:00:04:232</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QA_Team</span>
+<span class="badge badge-pill badge-default">GET_Request</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:03:40 pm</td>
+        <td>
+          <span class='badge white-text green'>Get_the_chart_data_for_a_specific_taskboard</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:40 pm</td>
+        <td>
+          <span class='badge white-text blue'>Success</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:40 pm</td>
+        <td>
+          <span class='badge white-text blue'>HTTP/1.1 200 OK</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:40 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({"data":{"status":{"not_started":3,"in_progress":1,"late":2,"completed":0},"bucket":[{"name":"Update DS Test003 Bucket","not_started":1,"in_progress":1,"late":2,"completed":0},{"name":"Bucket001","not_started":1,"in_progress":0,"late":0,"completed":0},{"name":"IN progress ","not_started":1,"in_progress":0,"late":0,"completed":0},{"name":"Almost Done","not_started":0,"in_progress":0,"late":0,"completed":0},{"name":"Completed","not_started":0,"in_progress":0,"late":0,"completed":0},{"name":"DS Test001 Bucket","not_started":0,"in_progress":0,"late":0,"completed":0}],"priority":[{"name":"Urgent","not_started":0,"in_progress":1,"late":1,"completed":0},{"name":"Important","not_started":0,"in_progress":0,"late":0,"completed":0},{"name":"Medium","not_started":3,"in_progress":0,"late":1,"completed":0},{"name":"Low","not_started":0,"in_progress":0,"late":0,"completed":0}],"members":[{"name":"Unassigned","not_started":0,"in_progress":0,"late":0,"completed":0},{"name":"MS Dhoni","not_started":0,"in_progress":0,"late":0,"completed":0},{"name":"MoinAli","not_started":0,"in_progress":0,"late":1,"completed":0},{"name":"rajeev","not_started":0,"in_progress":0,"late":0,"completed":0},{"name":"rajeev110","not_started":0,"in_progress":0,"late":0,"completed":0},{"name":"rajeev111","not_started":0,"in_progress":0,"late":0,"completed":0},{"name":"Deepak C.","not_started":0,"in_progress":0,"late":0,"completed":0},{"name":"A. Rayudu","not_started":1,"in_progress":0,"late":0,"completed":0},{"name":"Ajinkya R.","not_started":1,"in_progress":0,"late":0,"completed":0},{"name":"Faf du Plessis","not_started":1,"in_progress":0,"late":1,"completed":0},{"name":"Ruturaj G.","not_started":2,"in_progress":1,"late":2,"completed":0},{"name":"Shane Watson","not_started":2,"in_progress":0,"late":1,"completed":0},{"name":"Sachin T.","not_started":0,"in_progress":0,"late":0,"completed":0}]},"message":"Success","requeststatus":1}); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="QA_Team"
+          tag="GET_Request"
+          device="">
+          <div class="test-detail">
+            <p class="name">Get_all_the_taskboard</p>
+            <p class="text-sm">
+              <span>4:03:38 pm</span> / <span>00:00:01:307</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Get_all_the_taskboard</h5>
+<span class='badge badge-success'>05.04.2023 4:03:38 pm</span>
+<span class='badge badge-danger'>05.04.2023 4:03:39 pm</span>
+<span class='badge badge-default'>00:00:01:307</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">QA_Team</span>
+<span class="badge badge-pill badge-default">GET_Request</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:03:39 pm</td>
+        <td>
+          <span class='badge white-text green'>Get_all_the_taskboard</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:39 pm</td>
+        <td>
+          <span class='badge white-text blue'>Success</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:39 pm</td>
+        <td>
+          <span class='badge white-text blue'>HTTP/1.1 200 OK</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:39 pm</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({"data":[{"id":81,"project":49,"project__title":"Test005","company":19,"name":"Channel001","is_pinned":false,"created_by":159,"created_date":"2023-04-26T06:12:35.997696Z","updated_date":"2023-04-26T06:12:35.997746Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":211,"employee__id":130,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990236.687517.jpg","employee__employee_id":"DS0045","employee__user__first_name":"Shane Watson","employee__designation__name":"Engineering"},{"id":210,"employee__id":131,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681986140.855125.png","employee__employee_id":"DS019","employee__user__first_name":"Ruturaj G.","employee__designation__name":null},{"id":208,"employee__id":132,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681986103.291393.jpg","employee__employee_id":"DS072","employee__user__first_name":"Faf du Plessis","employee__designation__name":"Engineering"},{"id":207,"employee__id":134,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985758.042122.jpg","employee__employee_id":"DS044","employee__user__first_name":"Ajinkya R.","employee__designation__name":null},{"id":204,"employee__id":135,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985404.172476.png","employee__employee_id":"DS014","employee__user__first_name":"Deepak C.","employee__designation__name":"Engineering"},{"id":205,"employee__id":137,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985216.999749.png","employee__employee_id":"DS204","employee__user__first_name":"A. Rayudu","employee__designation__name":"Engineering"},{"id":212,"employee__id":138,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681987940.377755.jpg","employee__employee_id":"DS705","employee__user__first_name":"Sachin T.","employee__designation__name":"Engineering"},{"id":201,"employee__id":191,"employee__profile_picture":null,"employee__employee_id":"QA-1","employee__user__first_name":"rajeev","employee__designation__name":null},{"id":202,"employee__id":201,"employee__profile_picture":null,"employee__employee_id":"QA-110","employee__user__first_name":"rajeev110","employee__designation__name":null},{"id":203,"employee__id":202,"employee__profile_picture":null,"employee__employee_id":"QA-111","employee__user__first_name":"rajeev111","employee__designation__name":null},{"id":191,"employee__id":383,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985286.33141.png","employee__employee_id":"DS845","employee__user__first_name":"MoinAli","employee__designation__name":"Engineering"},{"id":190,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":80,"project":null,"project__title":null,"company":19,"name":"gjjdh","is_pinned":false,"created_by":159,"created_date":"2023-04-21T12:27:56.091050Z","updated_date":"2023-04-21T12:27:56.091095Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":217,"employee__id":131,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681986140.855125.png","employee__employee_id":"DS019","employee__user__first_name":"Ruturaj G.","employee__designation__name":null},{"id":219,"employee__id":132,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681986103.291393.jpg","employee__employee_id":"DS072","employee__user__first_name":"Faf du Plessis","employee__designation__name":"Engineering"},{"id":214,"employee__id":134,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985758.042122.jpg","employee__employee_id":"DS044","employee__user__first_name":"Ajinkya R.","employee__designation__name":null},{"id":215,"employee__id":135,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985404.172476.png","employee__employee_id":"DS014","employee__user__first_name":"Deepak C.","employee__designation__name":"Engineering"},{"id":213,"employee__id":137,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985216.999749.png","employee__employee_id":"DS204","employee__user__first_name":"A. Rayudu","employee__designation__name":"Engineering"},{"id":189,"employee__id":138,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681987940.377755.jpg","employee__employee_id":"DS705","employee__user__first_name":"Sachin T.","employee__designation__name":"Engineering"},{"id":216,"employee__id":383,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985286.33141.png","employee__employee_id":"DS845","employee__user__first_name":"MoinAli","employee__designation__name":"Engineering"},{"id":188,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":78,"project":null,"project__title":null,"company":19,"name":"Firefox","is_pinned":false,"created_by":159,"created_date":"2023-04-20T12:39:07.313568Z","updated_date":"2023-04-20T12:39:07.313627Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":226,"employee__id":130,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990236.687517.jpg","employee__employee_id":"DS0045","employee__user__first_name":"Shane Watson","employee__designation__name":"Engineering"},{"id":225,"employee__id":131,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681986140.855125.png","employee__employee_id":"DS019","employee__user__first_name":"Ruturaj G.","employee__designation__name":null},{"id":223,"employee__id":133,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985939.574473.png","employee__employee_id":"DS012","employee__user__first_name":"R. Jadeja","employee__designation__name":"Engineering"},{"id":222,"employee__id":135,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985404.172476.png","employee__employee_id":"DS014","employee__user__first_name":"Deepak C.","employee__designation__name":"Engineering"},{"id":221,"employee__id":137,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985216.999749.png","employee__employee_id":"DS204","employee__user__first_name":"A. Rayudu","employee__designation__name":"Engineering"},{"id":220,"employee__id":138,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681987940.377755.jpg","employee__employee_id":"DS705","employee__user__first_name":"Sachin T.","employee__designation__name":"Engineering"},{"id":224,"employee__id":383,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985286.33141.png","employee__employee_id":"DS845","employee__user__first_name":"MoinAli","employee__designation__name":"Engineering"},{"id":186,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":77,"project":null,"project__title":null,"company":19,"name":"Firoz","is_pinned":false,"created_by":159,"created_date":"2023-04-20T12:38:53.585135Z","updated_date":"2023-04-20T12:38:53.585165Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":185,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":76,"project":null,"project__title":null,"company":19,"name":"sfssv df","is_pinned":false,"created_by":159,"created_date":"2023-04-20T12:37:39.620661Z","updated_date":"2023-04-20T12:37:39.620710Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":184,"employee__id":383,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985286.33141.png","employee__employee_id":"DS845","employee__user__first_name":"MoinAli","employee__designation__name":"Engineering"},{"id":183,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":73,"project":null,"project__title":null,"company":19,"name":"fgxdfgdfgdf","is_pinned":false,"created_by":159,"created_date":"2023-04-20T12:33:35.814917Z","updated_date":"2023-04-20T12:33:35.814986Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":180,"employee__id":137,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985216.999749.png","employee__employee_id":"DS204","employee__user__first_name":"A. Rayudu","employee__designation__name":"Engineering"},{"id":179,"employee__id":138,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681987940.377755.jpg","employee__employee_id":"DS705","employee__user__first_name":"Sachin T.","employee__designation__name":"Engineering"},{"id":178,"employee__id":383,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985286.33141.png","employee__employee_id":"DS845","employee__user__first_name":"MoinAli","employee__designation__name":"Engineering"}]},{"id":72,"project":null,"project__title":null,"company":19,"name":"gtughn","is_pinned":false,"created_by":179,"created_date":"2023-04-20T12:20:23.510167Z","updated_date":"2023-04-20T12:20:23.510208Z","created_by__first_name":"Sachin T.","created_by__is_admin":false,"created_by__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681987940.377755.jpg","created_by__designation__name":"Engineering","members":[{"id":177,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":70,"project":null,"project__title":null,"company":19,"name":"lgucjhk","is_pinned":false,"created_by":159,"created_date":"2023-04-20T12:12:22.977362Z","updated_date":"2023-04-20T12:12:22.977401Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":175,"employee__id":134,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985758.042122.jpg","employee__employee_id":"DS044","employee__user__first_name":"Ajinkya R.","employee__designation__name":null},{"id":174,"employee__id":135,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985404.172476.png","employee__employee_id":"DS014","employee__user__first_name":"Deepak C.","employee__designation__name":"Engineering"},{"id":173,"employee__id":137,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985216.999749.png","employee__employee_id":"DS204","employee__user__first_name":"A. Rayudu","employee__designation__name":"Engineering"},{"id":172,"employee__id":138,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681987940.377755.jpg","employee__employee_id":"DS705","employee__user__first_name":"Sachin T.","employee__designation__name":"Engineering"},{"id":171,"employee__id":383,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985286.33141.png","employee__employee_id":"DS845","employee__user__first_name":"MoinAli","employee__designation__name":"Engineering"},{"id":170,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":69,"project":null,"project__title":null,"company":19,"name":"yuifyukh","is_pinned":false,"created_by":159,"created_date":"2023-04-20T12:11:34.141270Z","updated_date":"2023-04-20T12:11:34.141292Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":169,"employee__id":137,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985216.999749.png","employee__employee_id":"DS204","employee__user__first_name":"A. Rayudu","employee__designation__name":"Engineering"},{"id":168,"employee__id":138,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681987940.377755.jpg","employee__employee_id":"DS705","employee__user__first_name":"Sachin T.","employee__designation__name":"Engineering"},{"id":167,"employee__id":383,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985286.33141.png","employee__employee_id":"DS845","employee__user__first_name":"MoinAli","employee__designation__name":"Engineering"},{"id":166,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":68,"project":null,"project__title":null,"company":19,"name":"fjjkct utrurxj","is_pinned":false,"created_by":159,"created_date":"2023-04-20T12:09:37.198771Z","updated_date":"2023-04-20T12:09:37.198809Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":165,"employee__id":130,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990236.687517.jpg","employee__employee_id":"DS0045","employee__user__first_name":"Shane Watson","employee__designation__name":"Engineering"},{"id":164,"employee__id":131,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681986140.855125.png","employee__employee_id":"DS019","employee__user__first_name":"Ruturaj G.","employee__designation__name":null},{"id":163,"employee__id":132,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681986103.291393.jpg","employee__employee_id":"DS072","employee__user__first_name":"Faf du Plessis","employee__designation__name":"Engineering"},{"id":162,"employee__id":133,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985939.574473.png","employee__employee_id":"DS012","employee__user__first_name":"R. Jadeja","employee__designation__name":"Engineering"},{"id":161,"employee__id":134,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985758.042122.jpg","employee__employee_id":"DS044","employee__user__first_name":"Ajinkya R.","employee__designation__name":null},{"id":160,"employee__id":135,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985404.172476.png","employee__employee_id":"DS014","employee__user__first_name":"Deepak C.","employee__designation__name":"Engineering"},{"id":159,"employee__id":137,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985216.999749.png","employee__employee_id":"DS204","employee__user__first_name":"A. Rayudu","employee__designation__name":"Engineering"},{"id":158,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":67,"project":null,"project__title":null,"company":19,"name":"rth","is_pinned":false,"created_by":159,"created_date":"2023-04-20T12:08:32.394912Z","updated_date":"2023-04-20T12:08:32.394936Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":157,"employee__id":127,"employee__profile_picture":null,"employee__employee_id":"DS005","employee__user__first_name":"Chetan","employee__designation__name":null},{"id":156,"employee__id":137,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985216.999749.png","employee__employee_id":"DS204","employee__user__first_name":"A. Rayudu","employee__designation__name":"Engineering"},{"id":155,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":66,"project":27,"project__title":"Upstocks","company":19,"name":"yjtsrhjur","is_pinned":false,"created_by":159,"created_date":"2023-04-20T12:07:26.715828Z","updated_date":"2023-04-20T12:07:26.715859Z","created_by__first_name":"Dinesh","created_by__is_admin":true,"created_by__profile_picture":null,"created_by__designation__name":null,"members":[{"id":154,"employee__id":135,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985404.172476.png","employee__employee_id":"DS014","employee__user__first_name":"Deepak C.","employee__designation__name":"Engineering"},{"id":153,"employee__id":138,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681987940.377755.jpg","employee__employee_id":"DS705","employee__user__first_name":"Sachin T.","employee__designation__name":"Engineering"},{"id":152,"employee__id":390,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990004.905874.png","employee__employee_id":"DS0007","employee__user__first_name":"MS Dhoni","employee__designation__name":"Engineering"}]},{"id":28,"project":29,"project__title":"Zomato","company":19,"name":"Zomato","is_pinned":false,"created_by":176,"created_date":"2023-04-10T09:38:05.153051Z","updated_date":"2023-04-10T09:38:05.153084Z","created_by__first_name":"Deepak C.","created_by__is_admin":false,"created_by__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985404.172476.png","created_by__designation__name":"Engineering","members":[{"id":77,"employee__id":128,"employee__profile_picture":null,"employee__employee_id":"DS015","employee__user__first_name":"Ravi S.","employee__designation__name":null},{"id":75,"employee__id":130,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681990236.687517.jpg","employee__employee_id":"DS0045","employee__user__first_name":"Shane Watson","employee__designation__name":"Engineering"},{"id":74,"employee__id":131,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681986140.855125.png","employee__employee_id":"DS019","employee__user__first_name":"Ruturaj G.","employee__designation__name":null},{"id":76,"employee__id":133,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985939.574473.png","employee__employee_id":"DS012","employee__user__first_name":"R. Jadeja","employee__designation__name":"Engineering"},{"id":73,"employee__id":134,"employee__profile_picture":"https://api-collaborate.aptagrim.com/media_hrms2/EmployeesAPIPics/1681985758.042122.jpg","employee__employee_id":"DS044","employee__user__first_name":"Ajinkya R.","employee__designation__name":null}]}],"message":"Success","requeststatus":1}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 4, 2023 04:03:35 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 4, 2023 04:03:40 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='25%'><b>2</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>6</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Get_the_chart_data_for_a_specific_taskboard":4.232,"Get_all_the_taskboard":1.307
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>QA_Team</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>GET_Request</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Project Name</td>
+<td>HRMS_2.0</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Production</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 2,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 6
+};
+</script><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">GET_Request</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>GET_Request</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:03:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Get_the_chart_data_for_a_specific_taskboard</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:03:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Get_all_the_taskboard</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-04T16:03:35 IST" name="Default suite" finished-at="2023-05-04T16:03:40 IST" duration-ms="4668">
+    <groups>
+    </groups>
+    <test started-at="2023-05-04T16:03:35 IST" name="Default test" finished-at="2023-05-04T16:03:40 IST" duration-ms="4668">
+      <class name="GET_Request.Get_the_chart_data_for_a_specific_taskboard">
+        <test-method is-config="true" signature="Extent_R()[pri:0, instance:GET_Request.Get_the_chart_data_for_a_specific_taskboard@9225652]" started-at="2023-05-04T16:03:35 IST" name="Extent_R" finished-at="2023-05-04T16:03:36 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extent_R -->
+        <test-method signature="get_the_chart_data_for_a_specific_taskboard()[pri:0, instance:GET_Request.Get_the_chart_data_for_a_specific_taskboard@9225652]" started-at="2023-05-04T16:03:36 IST" name="get_the_chart_data_for_a_specific_taskboard" finished-at="2023-05-04T16:03:40 IST" duration-ms="4240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_the_chart_data_for_a_specific_taskboard -->
+        <test-method is-config="true" signature="Flush()[pri:0, instance:GET_Request.Get_the_chart_data_for_a_specific_taskboard@9225652]" started-at="2023-05-04T16:03:40 IST" name="Flush" finished-at="2023-05-04T16:03:40 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flush -->
+      </class> <!-- GET_Request.Get_the_chart_data_for_a_specific_taskboard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
