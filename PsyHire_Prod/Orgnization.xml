@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test_1 -- Chrome">
+	<parameter name="Browser_Name" value="chrome"></parameter>
+    <classes>
+		<class name="API.Org_Clean_Data"/>
+		<class name="Organization_Test_scripts.Login_Validation"/>
+		<class name="Organization_Test_scripts.Add_Team_Member_Validation"/>
+		<class name="Organization_Test_scripts.Add_Ext_Agent_Validation"/>
+		<class name="Organization_Test_scripts.Referral_Validation"/>
+		<class name="Organization_Test_scripts.One_Way_Assessment_Create_Validation"/>
+		<class name="Organization_Test_scripts.One_Way_Assessment_Database_Validation"/>
+		<class name="Organization_Test_scripts.One_Way_Assessment_Upload_Validation"/>
+		<class name="Organization_Test_scripts.Skill_Assessment_Create_Validation"/>
+		<class name="Organization_Test_scripts.Skill_Assessment_Database_Validation"/>
+		<class name="Organization_Test_scripts.Skill_Assessment_Upload_Validation"/>
+		<class name="Organization_Test_scripts.Psy_Assessment_Create_Validation"/>
+		<class name="Organization_Test_scripts.Psy_Assessment_Database_Validation"/>
+		<class name="Organization_Test_scripts.Psy_Assessment_Upload_Validation"/>
+		<class name="Organization_Test_scripts.Job_Post_Validation"/>
+		<class name="Organization_Test_scripts.Add_Talent_Acquisition_Team_Validation"/>
+		<class name="Organization_Test_scripts.Invite_Students_Bulk_Upload"/>
+		<class name="Organization_Test_scripts.Invite_Students_Manual"/>
+		<class name="Organization_Test_scripts.Apply_For_Job_Doc_Validation"/>
+		<class name="Organization_Test_scripts.Apply_For_Job_PDF_Validation"/>
+    </classes>	
+  </test>   
+  <!--
+  <test name="Test_2 - Firefox">
+	<parameter name="Browser_Name" value="Firefox"></parameter>
+    <classes>
+		<class name="API.Org_Clean_Data"/>
+		<class name="Organization_Test_scripts.Login_Validation"/>
+		<class name="Organization_Test_scripts.Add_Team_Member_Validation"/>
+		<class name="Organization_Test_scripts.Add_Ext_Agent_Validation"/>
+		<class name="Organization_Test_scripts.Referral_Validation"/>
+		<class name="Organization_Test_scripts.One_Way_Assessment_Create_Validation"/>
+		<class name="Organization_Test_scripts.One_Way_Assessment_Database_Validation"/>
+		<class name="Organization_Test_scripts.One_Way_Assessment_Upload_Validation"/>
+		<class name="Organization_Test_scripts.Skill_Assessment_Create_Validation"/>
+		<class name="Organization_Test_scripts.Skill_Assessment_Database_Validation"/>
+		<class name="Organization_Test_scripts.Skill_Assessment_Upload_Validation"/>
+		<class name="Organization_Test_scripts.Psy_Assessment_Create_Validation"/>
+		<class name="Organization_Test_scripts.Psy_Assessment_Database_Validation"/>
+		<class name="Organization_Test_scripts.Psy_Assessment_Upload_Validation"/>
+		<class name="Organization_Test_scripts.Job_Post_Validation"/>
+		<class name="Organization_Test_scripts.Add_Talent_Acquisition_Team_Validation"/>
+		<class name="Organization_Test_scripts.Invite_Students_Bulk_Upload"/>
+		<class name="Organization_Test_scripts.Invite_Students_Manual"/>
+		<class name="Organization_Test_scripts.Apply_For_Job_Doc_Validation"/>
+		<class name="Organization_Test_scripts.Apply_For_Job_PDF_Validation"/>
+    </classes>
+  </test>   
+  
+  <test name="Test_3 - Edge">
+	<parameter name="Browser_Name" value="Edge"></parameter>
+    <classes>
+		<class name="API.Org_Clean_Data"/>
+		<class name="Organization_Test_scripts.Login_Validation"/>
+		<class name="Organization_Test_scripts.Add_Team_Member_Validation"/>
+		<class name="Organization_Test_scripts.Add_Ext_Agent_Validation"/>
+		<class name="Organization_Test_scripts.Referral_Validation"/>
+		<class name="Organization_Test_scripts.One_Way_Assessment_Create_Validation"/>
+		<class name="Organization_Test_scripts.One_Way_Assessment_Database_Validation"/>
+		<class name="Organization_Test_scripts.One_Way_Assessment_Upload_Validation"/>
+		<class name="Organization_Test_scripts.Skill_Assessment_Create_Validation"/>
+		<class name="Organization_Test_scripts.Skill_Assessment_Database_Validation"/>
+		<class name="Organization_Test_scripts.Skill_Assessment_Upload_Validation"/>
+		<class name="Organization_Test_scripts.Psy_Assessment_Create_Validation"/>
+		<class name="Organization_Test_scripts.Psy_Assessment_Database_Validation"/>
+		<class name="Organization_Test_scripts.Psy_Assessment_Upload_Validation"/>
+		<class name="Organization_Test_scripts.Job_Post_Validation"/>
+		<class name="Organization_Test_scripts.Add_Talent_Acquisition_Team_Validation"/>
+		<class name="Organization_Test_scripts.Invite_Students_Bulk_Upload"/>
+		<class name="Organization_Test_scripts.Invite_Students_Manual"/>
+		<class name="Organization_Test_scripts.Apply_For_Job_Doc_Validation"/>
+		<class name="Organization_Test_scripts.Apply_For_Job_PDF_Validation"/>
+    </classes>
+  </test> 
+  -->
+</suite>  

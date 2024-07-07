@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="63" total="86" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-05T11:43:36 IST" name="Agency_Suite" finished-at="2024-07-05T11:52:40 IST" duration-ms="544102">
+    <groups>
+    </groups>
+    <test started-at="2024-07-05T11:43:36 IST" name="Test_1 - Chrome" finished-at="2024-07-05T11:52:40 IST" duration-ms="544102">
+      <class name="Agency_Test_Scripts.Skill_Assessment_Create_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Skill_Assessment_Create_Validation@68c9d179]" started-at="2024-07-05T11:44:28 IST" name="setUp" finished-at="2024-07-05T11:44:30 IST" duration-ms="1380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Skill_Assessment_Create_validation()[pri:0, instance:Agency_Test_Scripts.Skill_Assessment_Create_Validation@68c9d179]" started-at="2024-07-05T11:44:30 IST" name="Skill_Assessment_Create_validation" finished-at="2024-07-05T11:44:51 IST" duration-ms="20962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_Assessment_Create_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Skill_Assessment_Create_Validation@68c9d179]" started-at="2024-07-05T11:44:51 IST" name="Close_Browser" finished-at="2024-07-05T11:44:51 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Skill_Assessment_Create_Validation -->
+      <class name="Agency_Test_Scripts.Apply_For_Job_PDF_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Apply_For_Job_PDF_Validation@4d14b6c2]" started-at="2024-07-05T11:50:53 IST" name="setUp" finished-at="2024-07-05T11:50:55 IST" duration-ms="1384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apply_For_Job_PDF_validation()[pri:0, instance:Agency_Test_Scripts.Apply_For_Job_PDF_Validation@4d14b6c2]" started-at="2024-07-05T11:50:55 IST" name="Apply_For_Job_PDF_validation" finished-at="2024-07-05T11:51:18 IST" duration-ms="23488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Apply_For_Job_PDF_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Apply_For_Job_PDF_Validation@4d14b6c2]" started-at="2024-07-05T11:51:18 IST" name="Close_Browser" finished-at="2024-07-05T11:51:18 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Apply_For_Job_PDF_Validation -->
+      <class name="Agency_Test_Scripts.Psy_Assessment_Upload_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Psy_Assessment_Upload_Validation@14fc5f04]" started-at="2024-07-05T11:46:17 IST" name="setUp" finished-at="2024-07-05T11:46:18 IST" duration-ms="1237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Agency_Psy_Assessment_Upload_validation()[pri:0, instance:Agency_Test_Scripts.Psy_Assessment_Upload_Validation@14fc5f04]" started-at="2024-07-05T11:46:18 IST" name="Agency_Psy_Assessment_Upload_validation" finished-at="2024-07-05T11:46:41 IST" duration-ms="23027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Agency_Psy_Assessment_Upload_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Psy_Assessment_Upload_Validation@14fc5f04]" started-at="2024-07-05T11:46:41 IST" name="Close_Browser" finished-at="2024-07-05T11:46:41 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Psy_Assessment_Upload_Validation -->
+      <class name="Agency_Test_Scripts.Add_Client">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Add_Client@1c742ed4]" started-at="2024-07-05T11:47:47 IST" name="setUp" finished-at="2024-07-05T11:47:48 IST" duration-ms="1259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Add_Client_Validation()[pri:0, instance:Agency_Test_Scripts.Add_Client@1c742ed4]" started-at="2024-07-05T11:47:48 IST" name="Add_Client_Validation" finished-at="2024-07-05T11:48:04 IST" duration-ms="15711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Client_Validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Add_Client@1c742ed4]" started-at="2024-07-05T11:48:04 IST" name="Close_Browser" finished-at="2024-07-05T11:48:04 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Add_Client -->
+      <class name="API.Agency_Clean_Data">
+        <test-method signature="Delete_Acc_Data()[pri:0, instance:API.Agency_Clean_Data@61c4eee0]" started-at="2024-07-05T11:43:36 IST" name="Delete_Acc_Data" finished-at="2024-07-05T11:43:38 IST" duration-ms="1904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Acc_Data -->
+      </class> <!-- API.Agency_Clean_Data -->
+      <class name="Agency_Test_Scripts.Apply_For_Job_Doc_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Apply_For_Job_Doc_Validation@69c81773]" started-at="2024-07-05T11:50:20 IST" name="setUp" finished-at="2024-07-05T11:50:21 IST" duration-ms="1585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apply_For_Job_Doc_validation()[pri:0, instance:Agency_Test_Scripts.Apply_For_Job_Doc_Validation@69c81773]" started-at="2024-07-05T11:50:21 IST" name="Apply_For_Job_Doc_validation" finished-at="2024-07-05T11:50:53 IST" duration-ms="32059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Apply_For_Job_Doc_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Apply_For_Job_Doc_Validation@69c81773]" started-at="2024-07-05T11:50:53 IST" name="Close_Browser" finished-at="2024-07-05T11:50:53 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Apply_For_Job_Doc_Validation -->
+      <class name="Agency_Test_Scripts.Add_Team_Member">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Add_Team_Member@4b8d604b]" started-at="2024-07-05T11:43:52 IST" name="setUp" finished-at="2024-07-05T11:43:54 IST" duration-ms="1283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Add_Team_Member_Validation()[pri:0, instance:Agency_Test_Scripts.Add_Team_Member@4b8d604b]" started-at="2024-07-05T11:43:54 IST" name="Add_Team_Member_Validation" finished-at="2024-07-05T11:44:12 IST" duration-ms="18276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Team_Member_Validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Add_Team_Member@4b8d604b]" started-at="2024-07-05T11:44:12 IST" name="Close_Browser" finished-at="2024-07-05T11:44:12 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Add_Team_Member -->
+      <class name="Agency_Test_Scripts.Merge_CV_Folders_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Merge_CV_Folders_Validation@25df00a0]" started-at="2024-07-05T11:52:16 IST" name="setUp" finished-at="2024-07-05T11:52:18 IST" duration-ms="1287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Merge_CV_Folders_validation()[pri:0, instance:Agency_Test_Scripts.Merge_CV_Folders_Validation@25df00a0]" started-at="2024-07-05T11:52:18 IST" name="Merge_CV_Folders_validation" finished-at="2024-07-05T11:52:40 IST" duration-ms="22693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Merge_CV_Folders_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Merge_CV_Folders_Validation@25df00a0]" started-at="2024-07-05T11:52:40 IST" name="Close_Browser" finished-at="2024-07-05T11:52:40 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Merge_CV_Folders_Validation -->
+      <class name="Agency_Test_Scripts.Skill_Assessment_Upload_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Skill_Assessment_Upload_Validation@2dfaea86]" started-at="2024-07-05T11:45:11 IST" name="setUp" finished-at="2024-07-05T11:45:12 IST" duration-ms="1305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Agency_Skill_Assessment_page_Upload()[pri:0, instance:Agency_Test_Scripts.Skill_Assessment_Upload_Validation@2dfaea86]" started-at="2024-07-05T11:45:12 IST" name="Agency_Skill_Assessment_page_Upload" finished-at="2024-07-05T11:45:32 IST" duration-ms="20232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Agency_Skill_Assessment_page_Upload -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Skill_Assessment_Upload_Validation@2dfaea86]" started-at="2024-07-05T11:45:32 IST" name="Close_Browser" finished-at="2024-07-05T11:45:32 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Skill_Assessment_Upload_Validation -->
+      <class name="Agency_Test_Scripts.Skill_Assessment_Database_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Skill_Assessment_Database_Validation@d554c5f]" started-at="2024-07-05T11:44:51 IST" name="setUp" finished-at="2024-07-05T11:44:52 IST" duration-ms="1276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Skill_Assessment_Database_validation()[pri:0, instance:Agency_Test_Scripts.Skill_Assessment_Database_Validation@d554c5f]" started-at="2024-07-05T11:44:52 IST" name="Skill_Assessment_Database_validation" finished-at="2024-07-05T11:45:10 IST" duration-ms="18398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_Assessment_Database_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Skill_Assessment_Database_Validation@d554c5f]" started-at="2024-07-05T11:45:10 IST" name="Close_Browser" finished-at="2024-07-05T11:45:11 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Skill_Assessment_Database_Validation -->
+      <class name="Agency_Test_Scripts.One_Way_Assessment_Database_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.One_Way_Assessment_Database_Validation@3feb2dda]" started-at="2024-07-05T11:47:02 IST" name="setUp" finished-at="2024-07-05T11:47:04 IST" duration-ms="1357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="One_Way_Assessment_Database_validation()[pri:0, instance:Agency_Test_Scripts.One_Way_Assessment_Database_Validation@3feb2dda]" started-at="2024-07-05T11:47:04 IST" name="One_Way_Assessment_Database_validation" finished-at="2024-07-05T11:47:25 IST" duration-ms="21223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- One_Way_Assessment_Database_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.One_Way_Assessment_Database_Validation@3feb2dda]" started-at="2024-07-05T11:47:25 IST" name="Close_Browser" finished-at="2024-07-05T11:47:25 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.One_Way_Assessment_Database_Validation -->
+      <class name="Agency_Test_Scripts.Invite_Students_Bulk_Upload">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Invite_Students_Bulk_Upload@30f842ca]" started-at="2024-07-05T11:49:59 IST" name="setUp" finished-at="2024-07-05T11:50:01 IST" duration-ms="1280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invite_Students_Validation()[pri:0, instance:Agency_Test_Scripts.Invite_Students_Bulk_Upload@30f842ca]" started-at="2024-07-05T11:50:01 IST" name="Invite_Students_Validation" finished-at="2024-07-05T11:50:19 IST" duration-ms="18723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invite_Students_Validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Invite_Students_Bulk_Upload@30f842ca]" started-at="2024-07-05T11:50:19 IST" name="Close_Browser" finished-at="2024-07-05T11:50:20 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Invite_Students_Bulk_Upload -->
+      <class name="Agency_Test_Scripts.Add_Talent_Acquisition_Team_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Add_Talent_Acquisition_Team_Validation@55de24cc]" started-at="2024-07-05T11:49:22 IST" name="setUp" finished-at="2024-07-05T11:49:23 IST" duration-ms="1285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Add_Talent_Acquisition_Team_validation()[pri:0, instance:Agency_Test_Scripts.Add_Talent_Acquisition_Team_Validation@55de24cc]" started-at="2024-07-05T11:49:23 IST" name="Add_Talent_Acquisition_Team_validation" finished-at="2024-07-05T11:49:41 IST" duration-ms="17663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Talent_Acquisition_Team_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Add_Talent_Acquisition_Team_Validation@55de24cc]" started-at="2024-07-05T11:49:41 IST" name="Close_Browser" finished-at="2024-07-05T11:49:41 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Add_Talent_Acquisition_Team_Validation -->
+      <class name="Agency_Test_Scripts.One_Way_Assessment_Upload_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.One_Way_Assessment_Upload_Validation@6a8658ff]" started-at="2024-07-05T11:47:25 IST" name="setUp" finished-at="2024-07-05T11:47:26 IST" duration-ms="1286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Agency_One_Way_Assessment_Upload_validation()[pri:0, instance:Agency_Test_Scripts.One_Way_Assessment_Upload_Validation@6a8658ff]" started-at="2024-07-05T11:47:26 IST" name="Agency_One_Way_Assessment_Upload_validation" finished-at="2024-07-05T11:47:46 IST" duration-ms="20049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Agency_One_Way_Assessment_Upload_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.One_Way_Assessment_Upload_Validation@6a8658ff]" started-at="2024-07-05T11:47:46 IST" name="Close_Browser" finished-at="2024-07-05T11:47:47 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.One_Way_Assessment_Upload_Validation -->
+      <class name="Agency_Test_Scripts.Psy_Assessment_Database_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Psy_Assessment_Database_Validation@33ecda92]" started-at="2024-07-05T11:45:55 IST" name="setUp" finished-at="2024-07-05T11:45:56 IST" duration-ms="1451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Psy_Assessment_Database_validation()[pri:0, instance:Agency_Test_Scripts.Psy_Assessment_Database_Validation@33ecda92]" started-at="2024-07-05T11:45:56 IST" name="Psy_Assessment_Database_validation" finished-at="2024-07-05T11:46:17 IST" duration-ms="20447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Psy_Assessment_Database_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Psy_Assessment_Database_Validation@33ecda92]" started-at="2024-07-05T11:46:17 IST" name="Close_Browser" finished-at="2024-07-05T11:46:17 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Psy_Assessment_Database_Validation -->
+      <class name="Agency_Test_Scripts.One_Way_Assessment_Create_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.One_Way_Assessment_Create_Validation@6e2829c7]" started-at="2024-07-05T11:46:41 IST" name="setUp" finished-at="2024-07-05T11:46:43 IST" duration-ms="2172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="One_Way_Assessment_Create_validation()[pri:0, instance:Agency_Test_Scripts.One_Way_Assessment_Create_Validation@6e2829c7]" started-at="2024-07-05T11:46:43 IST" name="One_Way_Assessment_Create_validation" finished-at="2024-07-05T11:47:02 IST" duration-ms="19124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- One_Way_Assessment_Create_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.One_Way_Assessment_Create_Validation@6e2829c7]" started-at="2024-07-05T11:47:02 IST" name="Close_Browser" finished-at="2024-07-05T11:47:02 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.One_Way_Assessment_Create_Validation -->
+      <class name="Agency_Test_Scripts.CV_Bank_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.CV_Bank_Validation@7e990ed7]" started-at="2024-07-05T11:51:18 IST" name="setUp" finished-at="2024-07-05T11:51:20 IST" duration-ms="1450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CV_Bank_validation()[pri:0, instance:Agency_Test_Scripts.CV_Bank_Validation@7e990ed7]" started-at="2024-07-05T11:51:20 IST" name="CV_Bank_validation" finished-at="2024-07-05T11:51:48 IST" duration-ms="27910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CV_Bank_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.CV_Bank_Validation@7e990ed7]" started-at="2024-07-05T11:51:48 IST" name="Close_Browser" finished-at="2024-07-05T11:51:48 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.CV_Bank_Validation -->
+      <class name="Agency_Test_Scripts.Agency_Login_Validation">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:Agency_Test_Scripts.Agency_Login_Validation@5fb759d6]" started-at="2024-07-05T11:43:36 IST" name="generateReport" finished-at="2024-07-05T11:43:36 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Agency_Login_Validation@5fb759d6]" started-at="2024-07-05T11:43:38 IST" name="setUp" finished-at="2024-07-05T11:43:40 IST" duration-ms="1880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login_validation()[pri:0, instance:Agency_Test_Scripts.Agency_Login_Validation@5fb759d6]" started-at="2024-07-05T11:43:40 IST" name="Login_validation" finished-at="2024-07-05T11:43:52 IST" duration-ms="11923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Agency_Login_Validation@5fb759d6]" started-at="2024-07-05T11:43:52 IST" name="Close_Browser" finished-at="2024-07-05T11:43:52 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+        <test-method is-config="true" signature="Execution_Results()[pri:0, instance:Agency_Test_Scripts.Agency_Login_Validation@5fb759d6]" started-at="2024-07-05T11:52:40 IST" name="Execution_Results" finished-at="2024-07-05T11:52:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Execution_Results -->
+        <test-method is-config="true" signature="Send_Mail()[pri:0, instance:Agency_Test_Scripts.Agency_Login_Validation@5fb759d6]" started-at="2024-07-05T11:52:40 IST" name="Send_Mail" finished-at="2024-07-05T11:52:42 IST" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Send_Mail -->
+      </class> <!-- Agency_Test_Scripts.Agency_Login_Validation -->
+      <class name="Agency_Test_Scripts.Referral_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Referral_Validation@5e7cd6cc]" started-at="2024-07-05T11:44:12 IST" name="setUp" finished-at="2024-07-05T11:44:13 IST" duration-ms="1291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Referral_validation()[pri:0, instance:Agency_Test_Scripts.Referral_Validation@5e7cd6cc]" started-at="2024-07-05T11:44:13 IST" name="Referral_validation" finished-at="2024-07-05T11:44:28 IST" duration-ms="14854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Referral_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Referral_Validation@5e7cd6cc]" started-at="2024-07-05T11:44:28 IST" name="Close_Browser" finished-at="2024-07-05T11:44:28 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Referral_Validation -->
+      <class name="Agency_Test_Scripts.Sync_Cv_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Sync_Cv_Validation@c05fddc]" started-at="2024-07-05T11:51:48 IST" name="setUp" finished-at="2024-07-05T11:51:49 IST" duration-ms="1337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Sync_CV_Validation()[pri:0, instance:Agency_Test_Scripts.Sync_Cv_Validation@c05fddc]" started-at="2024-07-05T11:51:49 IST" name="Sync_CV_Validation" finished-at="2024-07-05T11:52:16 IST" duration-ms="27092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sync_CV_Validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Sync_Cv_Validation@c05fddc]" started-at="2024-07-05T11:52:16 IST" name="Close_Browser" finished-at="2024-07-05T11:52:16 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Sync_Cv_Validation -->
+      <class name="Agency_Test_Scripts.Invite_Students_Manual">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Invite_Students_Manual@dc7df28]" started-at="2024-07-05T11:49:41 IST" name="setUp" finished-at="2024-07-05T11:49:43 IST" duration-ms="1574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invite_Students_Validation()[pri:0, instance:Agency_Test_Scripts.Invite_Students_Manual@dc7df28]" started-at="2024-07-05T11:49:43 IST" name="Invite_Students_Validation" finished-at="2024-07-05T11:49:59 IST" duration-ms="16758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invite_Students_Validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Invite_Students_Manual@dc7df28]" started-at="2024-07-05T11:49:59 IST" name="Close_Browser" finished-at="2024-07-05T11:49:59 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Invite_Students_Manual -->
+      <class name="Agency_Test_Scripts.Job_Post_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Job_Post_Validation@333d4a8c]" started-at="2024-07-05T11:48:04 IST" name="setUp" finished-at="2024-07-05T11:48:05 IST" duration-ms="1247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Job_Post_validation()[pri:0, instance:Agency_Test_Scripts.Job_Post_Validation@333d4a8c]" started-at="2024-07-05T11:48:05 IST" name="Job_Post_validation" finished-at="2024-07-05T11:49:22 IST" duration-ms="76766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Job_Post_validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Job_Post_Validation@333d4a8c]" started-at="2024-07-05T11:49:22 IST" name="Close_Browser" finished-at="2024-07-05T11:49:22 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Job_Post_Validation -->
+      <class name="Agency_Test_Scripts.Psy_Assessment_Create_Validation">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Agency_Test_Scripts.Psy_Assessment_Create_Validation@15888343]" started-at="2024-07-05T11:45:32 IST" name="setUp" finished-at="2024-07-05T11:45:33 IST" duration-ms="1224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.psyhire.ai/auth/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Psy_Assessment_create_Validation()[pri:0, instance:Agency_Test_Scripts.Psy_Assessment_Create_Validation@15888343]" started-at="2024-07-05T11:45:33 IST" name="Psy_Assessment_create_Validation" finished-at="2024-07-05T11:45:55 IST" duration-ms="21096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Psy_Assessment_create_Validation -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:Agency_Test_Scripts.Psy_Assessment_Create_Validation@15888343]" started-at="2024-07-05T11:45:55 IST" name="Close_Browser" finished-at="2024-07-05T11:45:55 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Agency_Test_Scripts.Psy_Assessment_Create_Validation -->
+    </test> <!-- Test_1 - Chrome -->
+  </suite> <!-- Agency_Suite -->
+</testng-results>

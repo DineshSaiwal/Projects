@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2">
+	
+  <test name="Test1">
+	<parameter name="Browser_Name" value="chrome"/>
+    <parameter name="url" value="https://app.psyhire.ai/auth/signin"/>
+	<classes>
+		<!--<class name="API.Org_Clean_Data"/>
+      	<class name="API.Agency_Clean_Data"/>
+      	<class name="API.Inst_Clean_Data"/>   --> 
+      
+    <class name="Organization_Test_scripts.Org_Login_Validation"/>
+    <class name="Agency_Test_Scripts.Agency_Login_Validation"/>
+    
+    <class name="Institution_Test_Scripts.Inst_Login_validation"/>
+    <class name="Organization_Test_scripts.Referral_Validation"/>
+   
+    <class name="Agency_Test_Scripts.Referral_Validation"/>
+    <class name="Institution_Test_Scripts.Referral_Validation"/>
+     
+    <class name="Organization_Test_scripts.One_Way_Assessment_Create_Validation"/>
+    <class name="Agency_Test_Scripts.One_Way_Assessment_Create_Validation"/>
+    
+	<class name="Organization_Test_scripts.One_Way_Assessment_Database_Validation"/>
+	<class name="Agency_Test_Scripts.One_Way_Assessment_Upload_Validation"/>
+	
+	<class name="Organization_Test_scripts.One_Way_Assessment_Upload_Validation"/>
+	<class name="Agency_Test_Scripts.One_Way_Assessment_Database_Validation"/>
+	
+ 	<class name="Organization_Test_scripts.Skill_Assessment_Create_Validation"/>
+ 	<class name="Agency_Test_Scripts.Skill_Assessment_Create_Validation"/>
+ 	
+	<class name="Organization_Test_scripts.Skill_Assessment_Database_Validation"/>
+	<class name="Agency_Test_Scripts.Skill_Assessment_Upload_Validation"/>
+	
+	<class name="Organization_Test_scripts.Skill_Assessment_Upload_Validation"/>
+	<class name="Agency_Test_Scripts.Skill_Assessment_Database_Validation"/>
+	
+	<class name="Organization_Test_scripts.Psy_Assessment_Create_Validation"/>
+	<class name="Agency_Test_Scripts.Psy_Assessment_Create_Validation"/>
+	
+	<class name="Organization_Test_scripts.Psy_Assessment_Database_Validation"/>
+	<class name="Agency_Test_Scripts.Psy_Assessment_Upload_Validation"/>
+	
+	<class name="Organization_Test_scripts.Psy_Assessment_Upload_Validation"/>
+	<class name="Agency_Test_Scripts.Psy_Assessment_Database_Validation"/>
+	<!-- 
+	<class name="Organization_Test_scripts.Job_Post_Validation"/>
+	<class name="Agency_Test_Scripts.Add_Client"/>
+	
+	<class name="Organization_Test_scripts.Add_Team_Member_Validation"/>
+	<class name="Agency_Test_Scripts.Job_Post_Validation"/>
+	
+	<class name="Organization_Test_scripts.Add_Ext_Agent_Validation"/>
+	<class name="Agency_Test_Scripts.Add_Talent_Acquisition_Team_Validation"/>
+	
+	<class name="Organization_Test_scripts.Add_Talent_Acquisition_Team_Validation"/>
+	<class name="Agency_Test_Scripts.Invite_Students_Bulk_Upload"/>
+	
+	<class name="Organization_Test_scripts.Invite_Students_Bulk_Upload"/>
+	<class name="Agency_Test_Scripts.Invite_Students_Manual"/> 
+	
+	<class name="Organization_Test_scripts.Apply_For_Job_Doc_Validation"/>
+	<class name="Institution_Test_Scripts.Referral_Validation"/>
+	
+	<class name="Organization_Test_scripts.Apply_For_Job_PDF_Validation"/>
+	<class name="Institution_Test_Scripts.Add_HOD"/>
+	
+	<class name="Agency_Test_Scripts.Apply_For_Job_Doc_Validation"/>
+	<class name="Institution_Test_Scripts.Add_Department"/>
+	
+	<class name="Agency_Test_Scripts.Apply_For_Job_PDF_Validation"/>
+	<class name="Institution_Test_Scripts.Invite_Students_Manual"/>
+	
+	<class name="Agency_Test_Scripts.CV_Bank_Validation"/>
+	<class name="Institution_Test_Scripts.Invite_Students_Bulk_Upload"/>
+	
+
+	 -->
+    </classes>
+  </test>  
+  
+
+</suite> 

@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>TestNG:  Test2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 03 15:20:16 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>48 seconds (48563 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Institution_Test_Scripts.Referral_Validation.Referral_validation()'><b>Referral_validation</b><br>Test class: Institution_Test_Scripts.Referral_Validation</td>
+<td><div><pre>java.lang.Exception
+	at Base_Package.Utility_Class.Toast_Message_Validation(Utility_Class.java:96)
+	at Institution_Test_Scripts.Referral_Validation.Referral_validation(Referral_Validation.java:79)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1419479227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1419479227'><pre>java.lang.Exception
+	at Base_Package.Utility_Class.Toast_Message_Validation(Utility_Class.java:96)
+	at Institution_Test_Scripts.Referral_Validation.Referral_validation(Referral_Validation.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>19</td>
+<td>Institution_Test_Scripts.Referral_Validation@7eecb5b8</td></tr>
+<tr>
+<td title='Agency_Test_Scripts.Agency_Login_Validation.Login_validation()'><b>Login_validation</b><br>Test class: Agency_Test_Scripts.Agency_Login_Validation</td>
+<td><div><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Agency_Test_Scripts.Agency_Login_Validation.Login_validation(Agency_Login_Validation.java:79)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1221520312", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1221520312'><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Agency_Test_Scripts.Agency_Login_Validation.Login_validation(Agency_Login_Validation.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>17</td>
+<td>Agency_Test_Scripts.Agency_Login_Validation@69504ae9</td></tr>
+<tr>
+<td title='Organization_Test_scripts.Referral_Validation.Referral_validation()'><b>Referral_validation</b><br>Test class: Organization_Test_scripts.Referral_Validation</td>
+<td><div><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Organization_Test_scripts.Referral_Validation.Referral_validation(Referral_Validation.java:88)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace313054848", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace313054848'><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Organization_Test_scripts.Referral_Validation.Referral_validation(Referral_Validation.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>21</td>
+<td>Organization_Test_scripts.Referral_Validation@126253fd</td></tr>
+<tr>
+<td title='Organization_Test_scripts.Org_Login_Validation.PsyHire_Organization_Login()'><b>PsyHire_Organization_Login</b><br>Test class: Organization_Test_scripts.Org_Login_Validation</td>
+<td><div><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Organization_Test_scripts.Org_Login_Validation.PsyHire_Organization_Login(Org_Login_Validation.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1587173075", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1587173075'><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Organization_Test_scripts.Org_Login_Validation.PsyHire_Organization_Login(Org_Login_Validation.java:78)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>16</td>
+<td>Organization_Test_scripts.Org_Login_Validation@28cda624</td></tr>
+<tr>
+<td title='Institution_Test_Scripts.Inst_Login_validation.Login_Validation()'><b>Login_Validation</b><br>Test class: Institution_Test_Scripts.Inst_Login_validation</td>
+<td><div><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Institution_Test_Scripts.Inst_Login_validation.Login_Validation(Inst_Login_validation.java:82)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace317954239", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace317954239'><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Institution_Test_Scripts.Inst_Login_validation.Login_Validation(Inst_Login_validation.java:82)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>16</td>
+<td>Institution_Test_Scripts.Inst_Login_validation@387a8303</td></tr>
+<tr>
+<td title='Agency_Test_Scripts.Referral_Validation.Referral_validation()'><b>Referral_validation</b><br>Test class: Agency_Test_Scripts.Referral_Validation</td>
+<td><div><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Agency_Test_Scripts.Referral_Validation.Referral_validation(Referral_Validation.java:82)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1303616492", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1303616492'><pre>java.lang.ClassCastException: class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.TakesScreenshot (java.lang.ThreadLocal is in module java.base of loader &apos;bootstrap&apos;; org.openqa.selenium.TakesScreenshot is in unnamed module of loader &apos;app&apos;)
+	at Base_Package.Utility_Class.Capture_Screenshot(Utility_Class.java:83)
+	at Agency_Test_Scripts.Referral_Validation.Referral_validation(Referral_Validation.java:82)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>20</td>
+<td>Agency_Test_Scripts.Referral_Validation@1500b2f3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='API.Agency_Clean_Data.Delete_Acc_Data()'><b>Delete_Acc_Data</b><br>Test class: API.Agency_Clean_Data</td>
+<td></td>
+<td>0</td>
+<td>API.Agency_Clean_Data@7139992f</td></tr>
+</table><p>
+</body>
+</html>

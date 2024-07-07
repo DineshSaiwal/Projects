@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Agency_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_1 - Chrome(failed)">
+    <parameter name="Browser_Name" value="chrome"/>
+    <parameter name="url" value="https://app.psyhire.ai/auth/signin"/>
+    <classes>
+      <class name="Agency_Test_Scripts.CV_Bank_Validation">
+        <methods>
+          <include name="setUp"/>
+          <include name="Send_Mail"/>
+          <include name="Close_Browser"/>
+          <include name="Execution_Results"/>
+          <include name="CV_Bank_validation"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Agency_Test_Scripts.CV_Bank_Validation -->
+      <class name="Agency_Test_Scripts.Invite_Students_Manual">
+        <methods>
+          <include name="setUp"/>
+          <include name="Send_Mail"/>
+          <include name="Close_Browser"/>
+          <include name="Execution_Results"/>
+          <include name="Invite_Students_Validation"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Agency_Test_Scripts.Invite_Students_Manual -->
+      <class name="Agency_Test_Scripts.Apply_For_Job_Doc_Validation">
+        <methods>
+          <include name="setUp"/>
+          <include name="Send_Mail"/>
+          <include name="Close_Browser"/>
+          <include name="Apply_For_Job_Doc_validation"/>
+          <include name="Execution_Results"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Agency_Test_Scripts.Apply_For_Job_Doc_Validation -->
+      <class name="Agency_Test_Scripts.Apply_For_Job_PDF_Validation">
+        <methods>
+          <include name="setUp"/>
+          <include name="Apply_For_Job_PDF_validation"/>
+          <include name="Close_Browser"/>
+          <include name="Send_Mail"/>
+          <include name="Execution_Results"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Agency_Test_Scripts.Apply_For_Job_PDF_Validation -->
+      <class name="Agency_Test_Scripts.Job_Post_Validation">
+        <methods>
+          <include name="setUp"/>
+          <include name="Close_Browser"/>
+          <include name="Send_Mail"/>
+          <include name="Job_Post_validation"/>
+          <include name="Execution_Results"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Agency_Test_Scripts.Job_Post_Validation -->
+      <class name="Agency_Test_Scripts.Invite_Students_Bulk_Upload">
+        <methods>
+          <include name="setUp"/>
+          <include name="Close_Browser"/>
+          <include name="Send_Mail"/>
+          <include name="Invite_Students_Validation"/>
+          <include name="Execution_Results"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Agency_Test_Scripts.Invite_Students_Bulk_Upload -->
+      <class name="Agency_Test_Scripts.Sync_Cv_Validation">
+        <methods>
+          <include name="setUp"/>
+          <include name="Send_Mail"/>
+          <include name="Close_Browser"/>
+          <include name="Execution_Results"/>
+          <include name="Sync_CV_Validation"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Agency_Test_Scripts.Sync_Cv_Validation -->
+      <class name="Agency_Test_Scripts.Add_Talent_Acquisition_Team_Validation">
+        <methods>
+          <include name="setUp"/>
+          <include name="Close_Browser"/>
+          <include name="Send_Mail"/>
+          <include name="Execution_Results"/>
+          <include name="Add_Talent_Acquisition_Team_validation"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Agency_Test_Scripts.Add_Talent_Acquisition_Team_Validation -->
+      <class name="Agency_Test_Scripts.Merge_CV_Folders_Validation">
+        <methods>
+          <include name="setUp"/>
+          <include name="Send_Mail"/>
+          <include name="Close_Browser"/>
+          <include name="Execution_Results"/>
+          <include name="Merge_CV_Folders_validation"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Agency_Test_Scripts.Merge_CV_Folders_Validation -->
+    </classes>
+  </test> <!-- Test_1 - Chrome(failed) -->
+</suite> <!-- Failed suite [Agency_Suite] -->

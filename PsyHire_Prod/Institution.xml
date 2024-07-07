@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Agency Test Scripts">
+  <test name="Test_1 -- Chrome">
+	<parameter name="Browser_Name" value="chrome"></parameter>
+    <classes>
+		<class name="API.Inst_Clean_Data"/>
+		<class name="Institution_Test_Scripts.Login_validation"/>
+		<class name="Institution_Test_Scripts.Referral_Validation"/>		
+		<class name="Institution_Test_Scripts.Add_HOD"/>
+		<class name="Institution_Test_Scripts.Add_Department"/>
+		<class name="Institution_Test_Scripts.Invite_Students_Manual"/>
+		<class name="Institution_Test_Scripts.Invite_Students_Bulk_Upload"/>
+		<class name="Institution_Test_Scripts.Referral_Validation"/>
+	</classes>
+  </test> 
+  
+  <test name="Test_2 - Firefox">
+	<parameter name="Browser_Name" value="Firefox"></parameter>
+    <classes>
+		<class name="API.Inst_Clean_Data"/>
+		<class name="Institution_Test_Scripts.Login_validation"/>
+		<class name="Institution_Test_Scripts.Referral_Validation"/>		
+		<class name="Institution_Test_Scripts.Add_HOD"/>
+		<class name="Institution_Test_Scripts.Add_Department"/>
+		<class name="Institution_Test_Scripts.Invite_Students_Manual"/>
+		<class name="Institution_Test_Scripts.Invite_Students_Bulk_Upload"/>
+		<class name="Institution_Test_Scripts.Referral_Validation"/>
+  </classes>
+  </test> 
+  
+  <test name="Test_3 - Edge">
+	<parameter name="Browser_Name" value="Edge"></parameter>
+    <classes>
+		<class name="API.Inst_Clean_Data"/>
+		<class name="Institution_Test_Scripts.Login_validation"/>
+		<class name="Institution_Test_Scripts.Referral_Validation"/>		
+		<class name="Institution_Test_Scripts.Add_HOD"/>
+		<class name="Institution_Test_Scripts.Add_Department"/>
+		<class name="Institution_Test_Scripts.Invite_Students_Manual"/>
+		<class name="Institution_Test_Scripts.Invite_Students_Bulk_Upload"/>
+		<class name="Institution_Test_Scripts.Referral_Validation"/>
+  </classes>
+  </test> 
+  
+</suite> 

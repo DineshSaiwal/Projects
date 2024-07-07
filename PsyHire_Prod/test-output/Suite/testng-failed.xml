@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Browser_Name" value="edge"/>
+    <parameter name="url" value="https://app.psyhire.ai/auth/signin"/>
+    <classes>
+      <class name="Organization_Test_scripts.Apply_For_Job_PDF_Validation">
+        <methods>
+          <include name="setUp"/>
+          <include name="Apply_For_Job_PDF_validation"/>
+          <include name="Send_Mail"/>
+          <include name="Close_Browser"/>
+          <include name="Execution_Results"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Organization_Test_scripts.Apply_For_Job_PDF_Validation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

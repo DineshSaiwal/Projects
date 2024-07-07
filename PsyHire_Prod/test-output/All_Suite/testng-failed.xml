@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="Browser_Name" value="Firefox"/>
+    <parameter name="url" value="https://app.psyhire.ai/auth/signin"/>
+    <classes>
+      <class name="Institution_Test_Scripts.Add_Department">
+        <methods>
+          <include name="setUp"/>
+          <include name="Close_Browser"/>
+          <include name="Send_Mail"/>
+          <include name="Add_Department_Validation"/>
+          <include name="Execution_Results"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- Institution_Test_Scripts.Add_Department -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [All_Suite] -->
